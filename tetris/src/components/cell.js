@@ -1,9 +1,9 @@
 import React from 'react'
+import {StyledCell} from './styles/styledCell'
+import {FICHAS} from '../fichas'
 
 const Cell = ({type}) => (
-    <div>
-        cell
-    </div>
+       <StyledCell type = {type} color={FICHAS[type].color}/> 
 )
 
-export default Cell
+export default React.memo(Cell)

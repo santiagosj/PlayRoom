@@ -63,9 +63,11 @@ export const FICHAS = {
 }
 
 export const fichasRandom = () => {
+
     const fichas = 'IJLOSTZ'
 
     const randomFichas = fichas[Math.floor(Math.random() * fichas.length)];
         
     return FICHAS[randomFichas]
+    
 }
