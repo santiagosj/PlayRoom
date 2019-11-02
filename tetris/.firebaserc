@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "tetris-react-hooks",
+    "tetris-deploy": "tetris-react-hooks"
+  }
+}
